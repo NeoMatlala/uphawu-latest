@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--Boxicon-->
+    <link rel="stylesheet" href="style_portfolio.css">
+    <title>Brillisys | Portfolio</title>
+</head>
+<body>
+
+    <!--SCROLL TO TOP-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--HEADER-->
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="bx bx-menu"></i></label>
+          <div class="content">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" class="nav__logo"></a></div>
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#" class="desktop-link">About Us</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">About</label>
+                <ul>
+                  <li><a href="company.html">About Our Company</a></li>
+                  <li><a href="partners.html">Our Partners</a></li>
+                  <li><a href="team.html">Meet the team</a></li>
+                </ul>
+              </li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html" class="active-link">Portfolio</a></li>
+              <!-- <li><a href="pricing.html">Pricing</a></li> -->
+              <li><a href="contact.html">Contact Us</a></li>   
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    <main>
+        <!--PROJECTS & PORTFOLIO-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">Our Projects</span>
+                    <h2 class="section-title about__initial">Projects & Portfolio</h2>
+
+                    <div class="wrap">
+                        <div class="card-1">
+                            <div class="img-wrap"><img src="images/sap.png" alt="About image" class='card-img'></div>
+                            <div class="text-wrap">
+                                <h4 class="card-title">SAP BI Consulting</h4>
+                                <ul class="card-desc">
+                                    <li>2009 Mass Build SAP BI Upgrade (SAP BW)</li>
+                                    <li>2010 Shoprite SAP Implementation (SAP BW and BO)</li>
+                                    <li>2013 Sappi Single SAP System Migration ( SAP BW)</li>
+                                    <li>2013 Sappi Specialised Cellulose Reporting (SAP BW and SAP BO)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-2 ms-card">
+                            <div class="img-wrap"><img src="images/msbi.png" alt="About image" class='card-img ms-img'></div>
+                            <div class="text-wrap">
+                                <h4 class="card-title">Microsoft Consulting</h4>
+                                <ul class="card-desc">
+                                    <li>Standard Bank Customer Satisfaction Index (CSI ) (BI reporting using MCharts)</li>
+                                    <li>Mercedes Benz Customer Satisfaction Index (CSI) (SSRS and SSIS)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrap">
+                        <div class="card-1">
+                            <div class="img-wrap"><img src="images/mobile-app.png" alt="About image" class='card-img'></div>
+                            <div class="text-wrap">
+                                <h4 class="card-title">Mobile Applications</h4>
+                                <ul class="card-desc">
+                                    <li>Church Locator and Admin System (In Development)</li>
+                                    <li>Mpesa and EasyPay applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-2 saas-card">
+                            <div class="img-wrap"><img src="images/saas.png" alt="About image" class='card-img ms-img'></div>
+                            <div class="text-wrap">
+                                <h4 class="card-title">Software As A Service (SaaS)</h4>
+                                <ul class="card-desc">
+                                    <li>School Management System (Available)</li>
+                                    <li>Cloud-Based Biometric System (In Development)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer ">
+        <div class="footer__container bd-grid bd-container">
+            <div class="footer__content">
+                <a href="index.html"><img src="images/logo.png" class="footer__logo"></a>
+
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-google-plus'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">IT Support & Services</a></li>
+                    <li><a href="#" class="footer__link">Business Intelligence</a></li>
+                    <li><a href="#" class="footer__link">Web Applications Development</a></li>
+                    <li><a href="#" class="footer__link">Other Services</a></li>
+                    <li><a href="#" class="footer__link">Software Development</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+                <ul>
+                    <li><i class='bx bx-envelope'></i> info@brillosys.co.za</li>
+                    <li><i class='bx bx-phone-call'></i> 084 374 0225</li>
+                    <li><i class='bx bx-phone'></i> 072 760 1650</li>
+                    <li><i class='bx bx-location-plus'></i>42 Belvedere Road Glen Austin Midrand</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2021 BrilloSys Creative Solutions | All rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Scroll reveal-->
+    <script src='main.js'></script>
+    <!--main js file-->
+    
+</body>
+</html>
