@@ -171,7 +171,7 @@ var slides = document.querySelectorAll('.slide');
           return;
         }
         repeater();
-      }, 10000);
+      }, 4000);
       }
       repeater();
     }
