@@ -412,13 +412,6 @@ a{
 /* -------------------- MEDIA QUERIES -------------------------*/
 /*these will be applied for screens larger than 576px*/
 @media screen and (min-width: 576px) {
-  /* .home__container,
-  .about__container,
-  .app__container {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-  } */
-
   .about__data,
   .about__initial,
   .app__data,
@@ -467,6 +460,7 @@ a{
   .details .wrap {
     width: 30%;
     text-align: center;
+    margin-top: 2rem;
   }
 
   .details .wrap .desc {
@@ -484,12 +478,17 @@ a{
   }
 
   .footer__logo {
-    width: 35%;
+    width: 30%;
   }
 
   .about__data {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .desc {
+    font-size: 16px;
+    text-align: justify;
   }
 }
 
@@ -815,5 +814,231 @@ nav .content .links {
 
   .logo {
     padding-right: 0;
+  }
+}
+
+/* -------------------- MEDIA QUERIES -------------------------*/
+/*these will be applied for screens larger than 576px*/
+@media screen and (min-width: 576px) {
+
+  .about__data,
+  .about__initial {
+    text-align: initial;
+  }
+
+  .about__img {
+    width: 380px;
+    order: -1;
+  }
+
+  .about__data {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about__container h2{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .main-desc{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .main-desc br{
+    display: none;
+  }
+
+  .details{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    padding-left: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer__container .footer__logo{
+    height: 30%;
+    width: 35%;
+  }
+
+  .footer-description{
+    text-align: justify;
+    width: 100%;
+  }
+}
+
+/*these will be applied for screens larger than 768px*/
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .section {
+    padding-top: 8rem;
+  }
+
+  .wrapper{
+    align-items: center;
+    background-color: #040707;
+  }
+
+  .wrapper .links li a{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  .wrapper .logo .footer__logo{
+    padding-top: 3rem;
+    width: 60%;
+  }
+
+  .about__data{
+    width: 100%;
+  }
+
+  .details{
+    display: flex;
+    width: 100%;
+  }
+
+  .main-desc{
+    text-align: center;
+    font-style: italic;
+  }
+
+  .wrap{
+    width: 100%;
+  }
+
+  .wrap h4 {
+    margin-bottom: -0.5rem;
+  }
+
+  .email-wrap{
+    margin-left: -2rem;
+  }
+
+  .card-desc {
+    font-size: 16px;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    width: 80%;
+  }
+
+  .services__container .test-container {
+    height: auto;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer {
+    margin-top: 0rem;
+    padding-top: 2rem;
+  }
+
+  .footer__logo {
+    width: 35%;
+  }
+
+  .footer-links{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .footer-links2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__container {
+    row-gap: 2rem;
+    padding-top: 0;
+  }
+
+  .footer__title{
+    margin-top: 0;
+  }
+
+  .footer__social {
+    font-size: 3rem;
+  }
+}
+
+/*these will be applied for screens larger than 960px - laptop*/
+@media screen and (min-width: 960px) {
+  .bd-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about__container,
+  .app__container {
+    column-gap: 7rem;
+  }
+
+  .card-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card-1 .img-wrap,
+  .card-2 .img-wrap {
+    width: 30%;
+  }
+  .card-1 .text-wrap,
+  .card-2 .text-wrap {
+    width: 50%;
+  }
+
+  .card-1 .text-wrap .card-desc,
+  .card-2 .text-wrap .card-desc {
+    font-size: 14px;
+  }
+
+  .card-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card-2 .text-wrap {
+    order: 1;
+  }
+
+  .card-2 .text-wrap h2 {
+    text-align: left;
+  }
+
+  .card-2 .img-wrap {
+    order: 2;
+  }
+
+  .expert .text-wrap h2 {
+    text-align: center;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0rem;
   }
 }
