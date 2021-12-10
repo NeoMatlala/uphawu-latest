@@ -181,6 +181,7 @@ img {
 /* ----- NAV -----*/
 .nav{
   height: var(--header-height);
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,7 +220,7 @@ img {
   height: 100%;
 }
 .nav__logo{
-  width: 15%;
+  width: 35%;
 }
 
 .nav__logo, .nav__toggle{
@@ -1168,11 +1169,12 @@ nav .content .logo {
   }
 
   .l-header{
-    padding: 0 2rem;
+    padding: 1rem 2rem 3rem 2rem;
+    height: auto;
   }
 
   .nav .nav__logo{
-    width: 9%;
+    width: 15%;
   }
 
   .about{
